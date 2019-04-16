@@ -1,6 +1,6 @@
 # CI-dataMapper
 a single file mysql database lib from codeignite 3.0    
-从CI 3.0框架中复制出来组合成的单文件Mysql数据库操作类，只选取了mysqli驱动方式连接MySQL数据库，需要其它的驱动器或数据库，可以自行复制修改一下
+CI 3.0 框架的数据库操作类封装的还是比较棒的，用起来也很舒服，由于想要脱离CI框架使用该类库，故删繁就简，针对mysql数据库和mysqli驱动器复制了一份组合成单文件，方便直接引入使用，仅复制了基本的驱动器，缓存和结果集以及查询构造器类，如果有需要可以根据需要自行复制改造。
 
 
 ## how to use
